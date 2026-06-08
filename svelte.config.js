@@ -17,6 +17,9 @@ const config = {
 			assets: 'docs',
 			fallback: null
 		}),
+		prerender: {
+			handleHttpError: 'warn',
+		}
 		
 	},
 };
